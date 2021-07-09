@@ -1,0 +1,30 @@
+{
+  "name": "hot-resturant-miniproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Errollinsjr/Hot-Resturant-MiniProject.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Errollinsjr/Hot-Resturant-MiniProject/issues"
+  },
+  "homepage": "https://github.com/Errollinsjr/Hot-Resturant-MiniProject#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "expect": "^27.0.6",
+    "inquirer": "^8.1.1"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {}
+}

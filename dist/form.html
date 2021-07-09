@@ -2,7 +2,7 @@
   <html lang="en">
   <head>
       <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta Time="viewport" content="width=device-width, initial-scale=1.0">
       <title>Resturant Home</title>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
       <link href="https://fonts.googleapis.com/css?family=Public+Sans:300i,300,500&display=swap" rel="stylesheet">
@@ -18,12 +18,37 @@
       </header>
       <main>
           <div class="container-fluid">
-              <div class="row justify-content-center" id="team-cards">
-                  <h1>ORDER NOW</h1>
+            <div class="container">
+                <h2>Resturant Table Form</h2>
+                <form action="/action_page.php">
+                  <div class="form-group">
+                    <label for="Name">Name:</label>
+                    <input type="String" class="form-control" id="Name" placeholder="Enter last Name and first Name" name="Name">
+                  </div>
+
+                  <div class="form-group">
+                    <label for="Contact">Contact:</label>
+                    <input type="Number" class="form-control" id="Contact" placeholder="Enter Phone Number" name="Contact">
+                  </div>
+
+                  <div class="form-group">
+                    <label for="guests">Amount of guests:</label>
+                    <input type="Number" class="form-control" id="amountOfGuests" placeholder="Enter amount of guests" name="guests">
+                  </div>
+
+                  <div class="form-group">
+                    <label for="Time">Time:</label>
+                    <input type="Time" class="form-control" id="Time" placeholder="Enter Phone Number" name="Time">
+                  </div>
+
+                  <div>
+                  <button type="submit" onclick="location.href='../dist/tables.html'" class="submit-btn">Submit</button>
+                  </div>
+                </form>
               </div>
+
           <div class="btn" style="width:100%; height:100%;">
-              <button onclick="location.href='../dist/tables.html'" class="view-table-btn">View Tables</button>
-              <button onclick="location.href='../dist/reserve.html'" class="make-reservation-btn">Make Reservation</button>
+              <button onclick="location.href='../dist/home.html'" class="view-table-btn">Cancel</button>
           </div>    
          </div>
     
